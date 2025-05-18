@@ -1,0 +1,16 @@
+                                            Task
+Kutubxona tizimi elektronlashtirish bo’yicha RESTAPIsini ishlab chiqish
+
+Rollar va ular bajarishi mumkin bo’lgan amallar
+1. Admin – barcha huquqlarga ega
+2. Operator
+- Kitoblarni qo’shish, o’zgartirish, o’chirish
+- Buyurtmalarni ko’rish (olingan va topshirish vaqti, jarima miqdori)
+- Buyurtmalarni qabul qilish
+3. User
+- Kitoblarni ko’rish
+- Band qilish (1 kun ichida olib ketilmasa, brondan yechiladi)
+- O’qilgan kitoblarga baho berish (0-5 yulduzchagacha)
+
+Vaqtinchalik foydalanish uchun olingan kitoblarni kunlik foydalanish narxi bo’ladi.
+Masalan, Kitob nomi: O’tgan kunlar, kunlik foydalanish narxi: 1000 so’m. Agar foydalanish muddat o’tib ketsa har bir kun uchun, foydalanish narxini 1% miqdorida jarima qo’shiladi.
